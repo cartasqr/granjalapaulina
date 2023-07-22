@@ -1,0 +1,40 @@
+.portada{
+    height: 120px;
+ }
+
+.logo{
+    height: 50px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_promo{
+    border-radius: 8px;
+    /* height: 100px !important; */
+}
+
+.redes_img{
+    height: 24px;
+    margin-left: 4px;
+}
+
+.titulo_producto{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.card_producto{
+    background-color: bisque;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.interna_categoria{
+    display: flex;
+    justify-content: center;
+}
