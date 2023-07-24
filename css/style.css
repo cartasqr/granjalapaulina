@@ -6,27 +6,33 @@
     height: 50px;
 }
 
-.titulos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .img_promo{
     border-radius: 8px;
-    /* height: 100px !important; */
 }
 
-.redes_img{
-    height: 28px;
-    margin-left: 4px;
+.accordion-button{
+    background-color: #F18D00 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.img_producto{
+    border-radius: 8px;
 }
 
 .titulo_producto{
     display: flex;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
+    margin-top: 4px;
+}
+
+.precio_producto{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
     margin-top: 4px;
 }
 
@@ -36,13 +42,49 @@
 }
 
 .card_producto{
+    margin: 0px 8px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgb(255, 206, 114);
-    margin: 8px;
     padding: 8px;
     border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(190, 190, 190);
+    width: 45% !important;
 }
 
 .interna_categoria{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.descripcion_icon{
+    font-size: 9px;
+}
+
+.iconos:hover{
+    scale: 1.1;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    width: 23;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconos_redes{
+    display: flex;
+    flex-direction: row;
 }
