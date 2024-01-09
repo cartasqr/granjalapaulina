@@ -10,6 +10,10 @@
     border-radius: 8px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .accordion-button{
     background-color: #F18D00 !important;
     color: white !important;
@@ -39,6 +43,10 @@
 .img_slider{
     height: 200px;
     
+}
+
+.card_whatsapp a{
+    text-decoration: none !important;
 }
 
 .card_producto{
@@ -88,4 +96,20 @@
 .iconos_redes{
     display: flex;
     flex-direction: row;
+}
+
+.div_promo{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    border-radius: 10px;
+    color: #008932;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 1px #25D366;
+    border: 2px #25D366 solid;
 }
