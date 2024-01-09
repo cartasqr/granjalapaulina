@@ -113,3 +113,20 @@ a {
     box-shadow: 2px 2px 1px #25D366;
     border: 2px #25D366 solid;
 }
+
+
+.div_ubicacion{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 1px #000000;
+    border: 2px #000000 solid;
+}
